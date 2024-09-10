@@ -1,24 +1,8 @@
 {
     "rewrites": [
-      {
-        "source": "/api/(.*)",
-        "destination": "https://pwpush.com/$1"
-      }
-    ],
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "build"
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
         }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/(.*)",
-        "dest": "/index.html"
-      }
     ]
-  }
-  
+}
