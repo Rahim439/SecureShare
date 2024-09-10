@@ -6,7 +6,7 @@ import {
   RefreshCwIcon,
 } from "lucide-react";
 
-export default function Component() {
+export default function CombinedGenerator() {
   const [activeTab, setActiveTab] = useState("password");
   const [password, setPassword] = useState("");
   const [passwordLength, setPasswordLength] = useState(8);
