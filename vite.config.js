@@ -12,10 +12,4 @@ export default defineConfig({
       },
     },
   },
-  rewrites: [
-    {
-      source: "/api/(.*)",
-      destination: "https://pwpush.com/$1",
-    },
-  ],
 });
