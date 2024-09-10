@@ -9,13 +9,13 @@ import {
 export default function Component() {
   const [activeTab, setActiveTab] = useState("password");
   const [password, setPassword] = useState("");
-  const [passwordLength, setPasswordLength] = useState(12);
+  const [passwordLength, setPasswordLength] = useState(8);
   const [includeUppercase, setIncludeUppercase] = useState(true);
   const [includeNumbers, setIncludeNumbers] = useState(true);
   const [includeSymbols, setIncludeSymbols] = useState(true);
   const [url, setUrl] = useState("");
-  const [expireAfterDays, setExpireAfterDays] = useState(7);
-  const [expireAfterViews, setExpireAfterViews] = useState(5);
+  const [expireAfterDays, setExpireAfterDays] = useState("");
+  const [expireAfterViews, setExpireAfterViews] = useState("");
   const [copied, setCopied] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -35,6 +35,7 @@ export default function Component() {
   const generateUrl = () => {
     setLoading(true);
     setError("");
+
     fetch("/api/p.json", {
       method: "POST",
       headers: {
@@ -73,13 +74,13 @@ export default function Component() {
 
   const resetAll = () => {
     setPassword("");
-    setPasswordLength(12);
+    setPasswordLength(8);
     setIncludeUppercase(true);
     setIncludeNumbers(true);
     setIncludeSymbols(true);
     setUrl("");
-    setExpireAfterDays(7);
-    setExpireAfterViews(5);
+    setExpireAfterDays("");
+    setExpireAfterViews("");
     setError("");
   };
 
