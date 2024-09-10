@@ -1,8 +1,27 @@
-# React + Vite
+# SecureShare - Password and URL Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SecureShare is a React application that provides two main functionalities:
 
-Currently, two official plugins are available:
+1. **Password Generator**: Allows users to generate random passwords with customizable settings.
+2. **URL Generator**: Generates unique URLs that can be configured to expire after a certain number of days or views.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Password Generator**:
+  - Customizable length (8 to 32 characters).
+  - Options to include uppercase letters, numbers, and symbols.
+  - Copy generated password to clipboard.
+
+- **URL Generator**:
+  - Generates a unique URL based on the given password.
+  - Option to set expiration after a certain number of days and views.
+  - Copy generated URL to clipboard.
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Rahim439/secure-share.git
+   cd secure-share
