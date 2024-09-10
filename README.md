@@ -2,6 +2,7 @@
 
 <img width="534" alt="1" src="https://github.com/user-attachments/assets/33ab16e9-b713-4ccf-adf4-4868d40f8b83">
 
+<img width="577" alt="2" src="https://github.com/user-attachments/assets/1aa38c06-99b7-4499-88d0-48fac0dce135">
 
 
 SecureShare is a React application that provides two main functionalities:
