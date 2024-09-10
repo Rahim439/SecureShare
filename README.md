@@ -1,6 +1,7 @@
 # SecureShare - Password and URL Generator
 
-https://github.com/Rahim439/SecureShare/blob/main/1.PNG?raw=true
+<img width="534" alt="1" src="https://github.com/user-attachments/assets/33ab16e9-b713-4ccf-adf4-4868d40f8b83">
+
 
 
 SecureShare is a React application that provides two main functionalities:
